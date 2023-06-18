@@ -29,7 +29,7 @@ const App = () => {
 
     return (
         <>
-            <h1>Country App</h1>
+            <h1>Countries App</h1>
             {isLoading && <h2>Loading...</h2>}
             {error && <h2>{error.message}</h2>}
             {countries && <Countries countries={countries} />}
